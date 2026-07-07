@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+upload-key.keystore
+play_assets/screenshot_*.png
