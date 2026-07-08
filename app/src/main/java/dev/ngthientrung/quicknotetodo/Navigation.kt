@@ -1,4 +1,4 @@
-package com.example.quicknotetodo
+package dev.ngthientrung.quicknotetodo
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
@@ -9,12 +9,12 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.ui.NavDisplay
-import com.example.quicknotetodo.data.DefaultNoteRepository
-import com.example.quicknotetodo.data.NoteDatabase
-import com.example.quicknotetodo.ui.DetailScreen
-import com.example.quicknotetodo.ui.HomeScreen
-import com.example.quicknotetodo.ui.NoteViewModel
-import com.example.quicknotetodo.ui.NoteViewModelFactory
+import dev.ngthientrung.quicknotetodo.data.DefaultNoteRepository
+import dev.ngthientrung.quicknotetodo.data.NoteDatabase
+import dev.ngthientrung.quicknotetodo.ui.DetailScreen
+import dev.ngthientrung.quicknotetodo.ui.HomeScreen
+import dev.ngthientrung.quicknotetodo.ui.NoteViewModel
+import dev.ngthientrung.quicknotetodo.ui.NoteViewModelFactory
 
 @Composable
 fun MainNavigation() {

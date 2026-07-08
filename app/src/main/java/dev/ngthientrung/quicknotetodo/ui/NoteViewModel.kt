@@ -1,10 +1,10 @@
-package com.example.quicknotetodo.ui
+package dev.ngthientrung.quicknotetodo.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.quicknotetodo.data.Note
-import com.example.quicknotetodo.data.NoteRepository
+import dev.ngthientrung.quicknotetodo.data.Note
+import dev.ngthientrung.quicknotetodo.data.NoteRepository
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.stateIn

@@ -40,6 +40,6 @@ echo "=== 3. Cài đặt ứng dụng lên máy ảo (Installing App) ==="
 ./gradlew installDebug
 
 echo "=== 4. Khởi chạy ứng dụng (Launching App) ==="
-$ADB shell am start -n com.example.quicknotetodo/com.example.quicknotetodo.MainActivity
+$ADB shell am start -n dev.ngthientrung.quicknotetodo/dev.ngthientrung.quicknotetodo.MainActivity
 
 echo "=== Hoàn thành! Ứng dụng đã được khởi chạy thành công. ==="

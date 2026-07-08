@@ -1,4 +1,4 @@
-package com.example.quicknotetodo.data
+package dev.ngthientrung.quicknotetodo.data
 
 import android.content.Context
 import androidx.room.Database

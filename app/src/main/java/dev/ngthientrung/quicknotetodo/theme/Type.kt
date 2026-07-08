@@ -1,4 +1,4 @@
-package com.example.quicknotetodo.theme
+package dev.ngthientrung.quicknotetodo.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

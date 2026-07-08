@@ -1,4 +1,4 @@
-package com.example.quicknotetodo.ui
+package dev.ngthientrung.quicknotetodo.ui
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
@@ -17,7 +17,7 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.quicknotetodo.data.Note
+import dev.ngthientrung.quicknotetodo.data.Note
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

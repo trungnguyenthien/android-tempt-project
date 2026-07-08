@@ -1,4 +1,4 @@
-package com.example.quicknotetodo
+package dev.ngthientrung.quicknotetodo
 
 import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable

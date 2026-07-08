@@ -1,4 +1,4 @@
-package com.example.quicknotetodo.data
+package dev.ngthientrung.quicknotetodo.data
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

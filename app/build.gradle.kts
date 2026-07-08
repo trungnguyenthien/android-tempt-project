@@ -6,20 +6,24 @@ plugins {
 }
 
 android {
-    namespace = "com.example.quicknotetodo"
+    namespace = "dev.ngthientrung.quicknotetodo"
     compileSdk = 36
     defaultConfig {
-        applicationId = "com.example.quicknotetodo"
+        applicationId = "dev.ngthientrung.quicknotetodo"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
+        versionCode = 5
         versionName = "1.0"
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            ndk {
+                debugSymbolLevel = "FULL"
+            }
         }
     }
     compileOptions {

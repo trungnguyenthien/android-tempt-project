@@ -34,9 +34,16 @@ if [ -f "$KEYSTORE_NAME" ]; then
     echo "Đang xác minh chữ ký (Verifying signature)..."
     jarsigner -verify "$AAB_PATH"
     
+    # Tạo tên file AAB với định dạng release-[YYMMDD-hh:mm:ss].aab
+    TIMESTAMP=$(date +%y%m%d-%H%M%S)
+    RELEASE_NAME="release-${TIMESTAMP}.aab"
+    
+    # Copy file AAB đã ký ra thư mục gốc dự án
+    cp "$AAB_PATH" "$RELEASE_NAME"
+    
     echo "=========================================================="
-    echo "🎉 Thành công! File AAB đã được KÝ SỐ và lưu tại:"
-    echo "📍 $AAB_PATH"
+    echo "🎉 Thành công! File AAB đã được KÝ SỐ và lưu tại thư mục gốc:"
+    echo "📍 $(pwd)/$RELEASE_NAME"
     echo "Sẵn sàng để upload lên Google Play Console!"
     echo "=========================================================="
 else

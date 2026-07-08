@@ -1,4 +1,4 @@
-package com.example.quicknotetodo.theme
+package dev.ngthientrung.quicknotetodo.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
